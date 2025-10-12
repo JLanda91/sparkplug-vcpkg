@@ -1,0 +1,11 @@
+// Default Ubuntu-based DevContainer Template.
+// For more customization options, see https://containers.dev/implementors/json_reference
+{
+  name: "sparkplug-vcpkg",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/sparkplug-vcpkg",
+  "overrideCommand": false
+}

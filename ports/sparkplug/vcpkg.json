@@ -1,0 +1,10 @@
+{
+  "name": "sparkplug",
+  "version": "1.0.0",
+  "description": "a testing and mocking framework for CUDA device functors built on gtest.",
+  "homepage": "https://github.com/JLanda91/sparkplug",
+  "license": "Apache-2.0",
+  "dependencies": [
+    "gtest"
+  ]
+}
