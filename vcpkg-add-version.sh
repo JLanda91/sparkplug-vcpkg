@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Register vcpkg version
-vcpkg x-add-version sparkplug
+vcpkg x-add-version sparkplug --overwrite-version
 
 # Copy back resulting sparkplug json
 cp /opt/vcpkg/versions/s-/sparkplug.json ./versions/s-/sparkplug.json
