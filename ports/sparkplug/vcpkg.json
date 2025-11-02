@@ -5,6 +5,8 @@
   "homepage": "https://github.com/JLanda91/sparkplug",
   "license": "Apache-2.0",
   "dependencies": [
-    "gtest"
+    "gtest",
+    "vcpkg-cmake",
+    "vcpkg-cmake-config"
   ]
 }
